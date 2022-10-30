@@ -1,4 +1,4 @@
-N = 256;
+N = 2048;
 colormap("jet");
 f = fopen('out.raw','r');
 I = fread(f,N*N,'float32');
