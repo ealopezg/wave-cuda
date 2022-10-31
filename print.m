@@ -1,6 +1,9 @@
-N = 2048;
+
+
+
+N = 256;
 colormap("jet");
-f = fopen('out.raw','r');
+f = fopen('salida.raw','r');
 I = fread(f,N*N,'float32');
 I = reshape(I,N,N);
 I = I';

@@ -1,7 +1,7 @@
 CC = nvcc
 CFLAGS=
 wave:
-	$(CC) -o wave wave3.cu $(CFLAGS)
+	$(CC) -o wave wave.cu $(CFLAGS)
 
 clean:
 	rm -f wave *.raw
